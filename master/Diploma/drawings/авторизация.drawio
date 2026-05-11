@@ -1,0 +1,103 @@
+<mxfile host="Electron" modified="2026-05-11T14:20:27.603Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="fiaAYoMb4YFOx8oPb_iu" version="21.6.5" type="device">
+  <diagram name="Страница 1" id="9kWS_TPuuj7EW5DpULRe">
+    <mxGraphModel dx="1434" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0YaSS-AUFco33IZOk8a9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0YaSS-AUFco33IZOk8a9-1" target="0YaSS-AUFco33IZOk8a9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-1" value="Генерация PKCE и state" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="30" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0YaSS-AUFco33IZOk8a9-2" target="0YaSS-AUFco33IZOk8a9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-2" value="Отправка запроса на наш auth сервис или на сторонний сервис для получения кода авторизации" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="110" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0YaSS-AUFco33IZOk8a9-4" target="0YaSS-AUFco33IZOk8a9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-4" value="Обработка полученного кода.&lt;br&gt;Получение JWT токенов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="190" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YaSS-AUFco33IZOk8a9-6" target="0YaSS-AUFco33IZOk8a9-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="512.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YaSS-AUFco33IZOk8a9-6" target="0YaSS-AUFco33IZOk8a9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-6" value="Токены получены?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="270" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YaSS-AUFco33IZOk8a9-11" target="0YaSS-AUFco33IZOk8a9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-11" value="Получаем данные о пользователе" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="360" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-12" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="278" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YaSS-AUFco33IZOk8a9-13" target="0YaSS-AUFco33IZOk8a9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YaSS-AUFco33IZOk8a9-13" target="0YaSS-AUFco33IZOk8a9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-13" value="Такой пользователь &lt;br&gt;уже есть?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="470" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YaSS-AUFco33IZOk8a9-15" target="0YaSS-AUFco33IZOk8a9-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="680" />
+              <mxPoint x="303" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-15" value="Обновляем данные пользователя в БД" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="585" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YaSS-AUFco33IZOk8a9-16" target="0YaSS-AUFco33IZOk8a9-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="680" />
+              <mxPoint x="303" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-16" value="Создаем пользователя в БД" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="585" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-19" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="478" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-20" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="478" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-21" value="Продолжение работы приложения" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="710" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YaSS-AUFco33IZOk8a9-24" target="0YaSS-AUFco33IZOk8a9-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="680" />
+              <mxPoint x="303" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-24" value="Вывод ошибки. &lt;br&gt;Возврат на авторизацию" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="468" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0YaSS-AUFco33IZOk8a9-27" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="278" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
